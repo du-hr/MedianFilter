@@ -4,7 +4,7 @@ public class MedianFilter {
 
 	public static void main(String[] args) {
 		
-		int[] testArray = new int[] {100,5,6,9,7,3,2,1,4,100};
+		int[] testArray = new int[] {100,5,6,9,7,3,2,1,4,96};
 		int[] resultArray = new int[testArray.length];
 		int[] edgeProtectedArray = protectArrayEdge(testArray);
 		
